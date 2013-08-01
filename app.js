@@ -1,0 +1,1 @@
+var CAMPAIGN_GOAL = 1000;
