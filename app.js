@@ -15,7 +15,7 @@ console.log("App running on http://localhost:1337");
 app.get("/", function(request, response) {
 
   response.send(
-    "<link rel='stylesheet' type='text/css' href='/static/fancy.css'>"+
+    "<link rel='stylesheet' type='text/css' href='/static/style.css'>"+
     "<h1>Your Crowdfunding Campaign</h1>"+
     "<h2>raised ??? out of $"+CAMPAIGN_GOAL.toFixed(2)+"</h2>"+
     "<a href='/fund'>Fund This</a>"
