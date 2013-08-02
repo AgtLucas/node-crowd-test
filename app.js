@@ -26,3 +26,5 @@ app.get("/", function(request, response) {
 app.get("/fund", function(request, response) {
   response.sendfile("fund.html");
 });
+
+var BALANCED_MARKETPLACE_URI = "/v1/marketplaces/TEST-MP2qKZ0cYRFEoDVHxCIuLOEf"
