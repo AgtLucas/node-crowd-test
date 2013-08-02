@@ -1,3 +1,6 @@
+// Configurations...
+var BALANCED_MARKETPLACE_URI = "/v1/marketplaces/TEST-MP2qKZ0cYRFEoDVHxCIuLOEf";
+var BALANCED_API_KEY = "4fc5cc0efbb211e2baff026ba7f8ec28";
 var CAMPAIGN_GOAL = 1000;
 
 // Start Express app
@@ -26,5 +29,3 @@ app.get("/", function(request, response) {
 app.get("/fund", function(request, response) {
   response.sendfile("fund.html");
 });
-
-var BALANCED_MARKETPLACE_URI = "/v1/marketplaces/TEST-MP2qKZ0cYRFEoDVHxCIuLOEf"
